@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    width: 414px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.header {
+    background-color: #CF2B2B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header img{
+    padding-left: 21px;
+    padding-top: 15px;
+}
+.header p{
+    padding-left: 21px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.container {
+    /*background-color: blue;*/
+    margin-top: 123px;
+    margin-left: 19px;
+}
+
+.prato {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 17px;
+    margin-bottom: 27px;
+}
+
+.prato div{
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 172px;
+    margin-right: 16px;
+    background-color: #FFFFFF;
+}
+
+.bebida {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 17px;
+    margin-bottom: 27px;
+}
+.bebida div{
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 172px;
+    margin-right: 16px;
+    background-color: #FFFFFF;
+}
+
+.sobremesa {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+.sobremesa div{
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 172px;
+    margin-right: 16px;
+    background-color: #FFFFFF;
+}
+
+.bottom {
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.button{
+    background-color: #CBCBCB;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 50px;
+    height: 61px;
+    width: 364px;
+}
+.button p{
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button p:nth-child(1){
+    padding-top: 8px;
+}
