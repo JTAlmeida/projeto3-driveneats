@@ -11,7 +11,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 414px;
 }
 .header img{
     padding-left: 21px;
@@ -27,7 +27,6 @@ body {
 }
 
 .container {
-    /*background-color: blue;*/
     margin-top: 123px;
     margin-left: 19px;
 }
@@ -48,6 +47,29 @@ body {
     background-color: #FFFFFF;
 }
 
+.pratoP p:nth-child(2){
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    margin-top: 8px;;
+    margin-bottom: 4px;
+    color: #333333;
+}
+.pratoP p:nth-child(3){
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 17.58px;
+    margin-bottom: 5px;
+    color: #A6A6A6;
+}
+.pratoP p:nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 13px;
+    color: #000000;
+}
+
 .bebida {
     display: flex;
     overflow-x: scroll;
@@ -62,12 +84,34 @@ body {
     margin-right: 16px;
     background-color: #FFFFFF;
 }
+.bebidaP p:nth-child(2){
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    margin-top: 8px;;
+    margin-bottom: 4px;
+    color: #333333;
+}
+.bebidaP p:nth-child(3){
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 17.58px;
+    margin-bottom: 5px;
+    color: #A6A6A6;
+}
+.bebidaP p:nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 13px;
+    color: #000000;
+}
 
 .sobremesa {
     display: flex;
     overflow-x: scroll;
     margin-top: 17px;
-    margin-bottom: 16px;
+    margin-bottom: 105px;
 }
 .sobremesa div{
     padding-top: 18px;
@@ -77,13 +121,35 @@ body {
     margin-right: 16px;
     background-color: #FFFFFF;
 }
+.sobremesaP p:nth-child(2){
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    margin-top: 8px;;
+    margin-bottom: 4px;
+    color: #333333;
+}
+.sobremesaP p:nth-child(3){
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 17.58px;
+    margin-bottom: 5px;
+    color: #A6A6A6;
+}
+.sobremesaP p:nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 13px;
+    color: #000000;
+}
 
 .bottom {
     background-color: #FFFFFF;
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 414px;
 }
 .button{
     background-color: #CBCBCB;
