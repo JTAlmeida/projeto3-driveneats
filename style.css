@@ -171,3 +171,6 @@ body {
 .button p:nth-child(1){
     padding-top: 8px;
 }
+
+@media (max-width: 414px){
+}
