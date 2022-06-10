@@ -198,9 +198,6 @@ body {
 
 .bottom button{
     background-color: #32B72F;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 25px;
@@ -212,6 +209,11 @@ body {
     bottom: 0;
     left: 0;
     border: none;
+}
+.bottom p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .hidden{
