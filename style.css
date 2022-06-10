@@ -9,9 +9,10 @@ body {
 .header {
     background-color: #CF2B2B;
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
-    width: 414px;
+    width: 100%;
 }
 .header img{
     padding-left: 21px;
@@ -39,12 +40,20 @@ body {
 }
 
 .prato div{
+    position: relative;
     padding-top: 18px;
     padding-left: 14px;
     padding-right: 14px;
     width: 172px;
     margin-right: 16px;
+    border-radius: 9px;
     background-color: #FFFFFF;
+}
+
+.pratoP img:nth-child(5){
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
 }
 
 .pratoP p:nth-child(2){
@@ -77,12 +86,19 @@ body {
     margin-bottom: 27px;
 }
 .bebida div{
+    position: relative;
     padding-top: 18px;
     padding-left: 14px;
     padding-right: 14px;
     width: 172px;
     margin-right: 16px;
+    border-radius: 9px;
     background-color: #FFFFFF;
+}
+.bebidaP img:nth-child(5){
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
 }
 .bebidaP p:nth-child(2){
     font-size: 16px;
@@ -114,12 +130,19 @@ body {
     margin-bottom: 105px;
 }
 .sobremesa div{
+    position: relative;
     padding-top: 18px;
     padding-left: 14px;
     padding-right: 14px;
     width: 172px;
     margin-right: 16px;
+    border-radius: 9px;
     background-color: #FFFFFF;
+}
+.sobremesaP img:nth-child(5){
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
 }
 .sobremesaP p:nth-child(2){
     font-size: 16px;
@@ -147,11 +170,12 @@ body {
 .bottom {
     background-color: #FFFFFF;
     position: fixed;
+    z-index: 1;
     bottom: 0;
     left: 0;
-    width: 414px;
+    width: 100%;
 }
-.button{
+.bottom div:nth-child(1){
     background-color: #CBCBCB;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -161,16 +185,47 @@ body {
     height: 61px;
     width: 364px;
 }
-.button p{
+.bottom div:nth-child(1) p{
     font-size: 20px;
     color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.button p:nth-child(1){
+.bottom div:nth-child(1) p:nth-child(1){
     padding-top: 8px;
 }
+
+.bottom button{
+    background-color: #32B72F;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 50px;
+    height: 61px;
+    width: 364px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.selecionaBox {
+    outline: 5px solid #32B72F;
+    outline-offset: -5px;
+}
+.hiddenButton{
+    display: none;
+}
+
 
 @media (max-width: 414px){
 }
