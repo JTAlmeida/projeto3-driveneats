@@ -198,7 +198,6 @@ function selecionab4() {
     valorBebida = 7.90;
     nomeBebida = "Coquinha ultra mega gelada";
 }
-
 function selecionas1() {
     let deselect = document.querySelector(".s1");
     deselect.classList.remove("selecionaBox");
@@ -295,7 +294,6 @@ function selecionas4() {
     valorSobremesa = 10.90;
     nomeSobremesa = "Pudim do bom";
 }
-
 function mudaBotao() {
     let p1 = document.querySelector(".p1");
     let checkp1 = p1.classList.contains("selecionaBox");
@@ -321,7 +319,7 @@ function mudaBotao() {
     let checks3 = s3.classList.contains("selecionaBox");
     let s4 = document.querySelector(".s4");
     let checks4 = s4.classList.contains("selecionaBox");
-    if ((checkp1===true||checkp2===true||checkp3===true||checkp4===true) && (checkb1===true||checkb2===true||checkb3===true||checkb4===true) && (checks1===true||checks2===true||checks3===true ||checks4===true)){
+    if ((checkp1||checkp2||checkp3||checkp4) && (checkb1||checkb2||checkb3||checkb4) && (checks1||checks2||checks3 ||checks4)){
         let botao = document.querySelector(".bottom button");
         botao.classList.remove("hiddenButton");
     };
@@ -333,7 +331,6 @@ function fechaPedido(){
     - Bebida: ${nomeBebida}
     - Sobremesa: ${nomeSobremesa}
     Total: R$ ${total.toFixed(2)}`;
-    
     mensagemZipZop = window.encodeURIComponent(mensagemZipZop);
     window.open("https://wa.me/5561991796354?text=" + mensagemZipZop, "_blank");
 }

@@ -5,7 +5,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
 }
-
 .header {
     background-color: #CF2B2B;
     position: fixed;
@@ -26,19 +25,16 @@ body {
     font-size: 18px;
     color: #FFFFFF;
 }
-
 .container {
     margin-top: 123px;
     margin-left: 19px;
 }
-
 .prato {
     display: flex;
     overflow-x: scroll;
     margin-top: 17px;
     margin-bottom: 27px;
 }
-
 .prato div{
     position: relative;
     padding-top: 18px;
@@ -48,14 +44,13 @@ body {
     margin-right: 16px;
     border-radius: 9px;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -2px #4d4d4d40;
 }
-
 .pratoP img:nth-child(5){
     position: absolute;
     right: 14px;
     bottom: 14px;
 }
-
 .pratoP p:nth-child(2){
     font-size: 16px;
     font-weight: 700;
@@ -78,7 +73,6 @@ body {
     margin-bottom: 13px;
     color: #000000;
 }
-
 .bebida {
     display: flex;
     overflow-x: scroll;
@@ -94,6 +88,7 @@ body {
     margin-right: 16px;
     border-radius: 9px;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -2px #4d4d4d40;
 }
 .bebidaP img:nth-child(5){
     position: absolute;
@@ -122,7 +117,6 @@ body {
     margin-bottom: 13px;
     color: #000000;
 }
-
 .sobremesa {
     display: flex;
     overflow-x: scroll;
@@ -138,6 +132,7 @@ body {
     margin-right: 16px;
     border-radius: 9px;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -2px #4d4d4d40;
 }
 .sobremesaP img:nth-child(5){
     position: absolute;
@@ -166,7 +161,6 @@ body {
     margin-bottom: 13px;
     color: #000000;
 }
-
 .bottom {
     background-color: #FFFFFF;
     position: fixed;
@@ -195,7 +189,6 @@ body {
 .bottom div:nth-child(1) p:nth-child(1){
     padding-top: 8px;
 }
-
 .bottom button{
     background-color: #32B72F;
     margin-top: 15px;
@@ -215,11 +208,9 @@ body {
     font-weight: 700;
     font-size: 20px;
 }
-
 .hidden{
     display: none;
 }
-
 .selecionaBox {
     outline: 5px solid #32B72F;
     outline-offset: -5px;
@@ -227,7 +218,6 @@ body {
 .hiddenButton{
     display: none;
 }
-
 
 @media (max-width: 414px){
 }
